@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+.wrapper {
+    min-height: 100vh;
+    background-image: url("alesia-kazantceva-VWcPlbHglYc-unsplash.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    color: rgb(235, 235, 26);
+    padding: 10px;
+    text-shadow: 2px 2px 12px rgb(230, 23, 23);
+}
+
+.main-cont {
+    display: flex;
+    margin-right: 100px;
+    flex-wrap: wrap;
+}
+
+h1{
+    margin: -100px 105px 40px 0px;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    margin: 10px;
+}
+
+p {
+    text-align: center;
+    margin: 10px;
+    font-size: large;
+}
